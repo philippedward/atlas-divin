@@ -26,17 +26,32 @@ video {
 }
 
 html {
-  --color--light-grey: #bcbfc3;
-  --color--background-dark-grey: #515050;
-  --color--bleu: #279ef8;
-  --color--yellow: #f8af27;
-  --color--green: #12965d;
-  --color--red: #f82727;
-  --color--black: #000;
-  --color--pastel-bleu: #a3d7ff;
-  --color--pastel-yellow: #f7f43e;
-  --color--pastel-green: #76e5b5;
-  --color--pastel-red: #f8a7a7;
-  --color--black: #000;
-  --color--white: #f7f6f6;
+  --color-light-grey: #bcbfc3;
+  --color-bg-dark-grey: #515050;
+  --color-bg-light: #fff;
+  --color-bleu: #279ef8;
+  --color-yellow: #f8af27;
+  --color-green: #12965d;
+  --color-red: #f82727;
+  --color-cream: #f7f6f6;
+  --color-black: #000;
+  --color-text-main: #000;
+}
+
+html[data-theme="dark"] {
+  --color-bg-dark-grey: #515050;
+  --color-white: #fff;
+  --color-pastel-bleu: #a3d7ff;
+  --color-pastel-yellow: #f7f43e;
+  --color-pastel-green: #76e5b5;
+  --color-pastel-red: #f8a7a7;
+  --color-text-main: #fff;
+}
+
+html[data-theme="light"] #light-mode-btn {
+  display: none;
+}
+
+html[data-theme="dark"] #dark-mode-btn {
+  display: none;
 }

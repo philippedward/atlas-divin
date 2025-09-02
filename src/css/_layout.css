@@ -1,0 +1,7 @@
+.l-header {
+  background: var(--color-light-grey, #bcbfc3);
+}
+
+.l-main {
+  background: var(--color-bg-light, #fff);
+}
