@@ -24,3 +24,19 @@ video {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+html {
+  --color--light-grey: #bcbfc3;
+  --color--background-dark-grey: #515050;
+  --color--bleu: #279ef8;
+  --color--yellow: #f8af27;
+  --color--green: #12965d;
+  --color--red: #f82727;
+  --color--black: #000;
+  --color--pastel-bleu: #a3d7ff;
+  --color--pastel-yellow: #f7f43e;
+  --color--pastel-green: #76e5b5;
+  --color--pastel-red: #f8a7a7;
+  --color--black: #000;
+  --color--white: #f7f6f6;
+}
