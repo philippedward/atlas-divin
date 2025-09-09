@@ -1,0 +1,49 @@
+article {
+  h3 {
+    font-family: "Caesar Dressing";
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.article-switch-mode-btn {
+  color: var(--color-text-main);
+  background: var(--color-bg);
+}
+
+.article-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--color-bg, #ffffff);
+}
+
+.article-p-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  p {
+    color: var(--Text-main, #515050);
+    font-family: "Bubbler One";
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.article-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  p {
+    color: var(--Text-main, #515050);
+    font-family: "Bubbler One";
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
