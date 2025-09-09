@@ -15,6 +15,18 @@ header {
   align-items: center;
   gap: 16px;
   list-style: none;
+  a {
+    text-decoration: none;
+    font-family: "Bubbler One";
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.header-logo {
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .header-nav {
@@ -25,6 +37,7 @@ header {
 
 .header-switch-mode-btn {
   color: var(--color-text-main);
+  background: var(--color-bg-comp);
   background: transparent;
 }
 
