@@ -27,7 +27,7 @@ video {
 
 html {
   --color-light-grey: #bcbfc3;
-  --color-bg-dark-grey: #515050;
+  --color-bg: #ffffff;
   --color-bg-light: #fff;
   --color-bleu: #279ef8;
   --color-yellow: #f8af27;
@@ -39,7 +39,7 @@ html {
 }
 
 html[data-theme="dark"] {
-  --color-bg-dark-grey: #515050;
+  --color-bg: #515050;
   --color-white: #fff;
   --color-pastel-bleu: #a3d7ff;
   --color-pastel-yellow: #f7f43e;
