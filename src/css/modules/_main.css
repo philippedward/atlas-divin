@@ -58,10 +58,23 @@ main {
 }
 
 .main-section-articles {
-  display: flex;
-  align-items: flex-start;
-  align-content: flex-start;
   gap: 20px;
-  align-self: stretch;
   flex-wrap: wrap;
+  padding-top: 40px;
+}
+
+.main-article-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.main-article-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-filtre-fix {
+  position: absolute;
+  top: 520;
 }

@@ -4,4 +4,5 @@
 @import "./modules/_main.css";
 @import "./modules/_footer.css";
 @import "./modules/_article.css";
+@import "./modules/_filtre.css";
 @import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";

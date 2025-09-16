@@ -4,7 +4,7 @@ article {
 
 .article-switch-mode-btn {
   color: var(--color-text-main);
-  background: var(--color-bg);
+  background: var(---color-bg);
 }
 
 .article-text-icon {
@@ -36,8 +36,8 @@ article {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  border: 2px solid var(--Blue, #279ef8);
-  background: var(--Background, #fff);
+  border: 2px solid var(--color-blue);
+  background: var(--color-bg);
   img {
     overflow: hidden;
     width: 100%;
@@ -57,7 +57,7 @@ article {
   position: absolute;
   left: 0;
   bottom: 75;
-  background: var(--Background, #fff);
+  background: var(--color-bg);
 }
 
 .article-subtitle {

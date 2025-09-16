@@ -1,0 +1,53 @@
+.main-button {
+  background: none;
+  display: flex;
+  border-radius: 8px;
+}
+
+.main-section-colors {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  p {
+    color: var(--color-text-main);
+    font-family: "Bubbler One";
+    font-size: 24px;
+    font-weight: 400;
+  }
+  button {
+    border: none;
+    display: flex;
+    padding: 12px 8px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+  }
+  h3 {
+    color: var(--color-text-main-filtre);
+  }
+}
+
+.main-button-yellow {
+  background: var(--color-yellow);
+}
+
+.main-button-blue {
+  background: var(--color-blue);
+}
+
+.main-button-red {
+  background: var(--color-red);
+}
+
+.main-button-green {
+  background: var(--color-green);
+}
+
+.main-filtre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}

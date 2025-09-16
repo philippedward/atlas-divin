@@ -29,24 +29,26 @@ html {
   --color-bg-comp: #bcbfc3;
   --color-bg: #ffffff;
   --color-bg-light: #fff;
-  --color-bleu: #279ef8;
+  --color-blue: #279ef8;
   --color-yellow: #f8af27;
   --color-green: #12965d;
   --color-red: #f82727;
   --color-cream: #f7f6f6;
   --color-black: #000;
   --color-text-main: #000;
+  --color-text-main-filtre: #fff;
 }
 
 html[data-theme="dark"] {
   --color-bg: #515050;
   --color-bg-comp: #696a6c;
   --color-white: #fff;
-  --color-bleu: #a3d7ff;
+  --color-blue: #a3d7ff;
   --color-yellow: #f7f43e;
   --color-green: #76e5b5;
   --color-red: #f8a7a7;
   --color-text-main: #fff;
+  --color-text-main-filtre: #000;
 }
 
 html[data-theme="light"] #light-mode-btn {
@@ -73,7 +75,7 @@ h2 {
 }
 
 h3 {
-  color: var(--Blue, #279ef8);
+  color: var(--color-blue);
   font-family: "Caesar Dressing";
   font-size: 20px;
   font-weight: 400;
