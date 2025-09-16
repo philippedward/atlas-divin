@@ -4,11 +4,14 @@
   border-radius: 8px;
 }
 
-.main-section-colors {
+.filtre-section-colors {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  align-self: stretch;
   gap: 40px;
+  position: sticky;
+  top: 0;
   p {
     color: var(--color-text-main);
     font-family: "Bubbler One";
@@ -28,26 +31,25 @@
   }
 }
 
-.main-button-yellow {
+.filtre-button-yellow {
   background: var(--color-yellow);
 }
 
-.main-button-blue {
+.filtre-button-blue {
   background: var(--color-blue);
 }
 
-.main-button-red {
+.filtre-button-red {
   background: var(--color-red);
 }
 
-.main-button-green {
+.filtre-button-green {
   background: var(--color-green);
 }
 
-.main-filtre {
+.filtre-all {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 20px;
   align-self: stretch;
 }
