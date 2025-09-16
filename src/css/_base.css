@@ -56,3 +56,32 @@ html[data-theme="light"] #light-mode-btn {
 html[data-theme="dark"] #dark-mode-btn {
   display: none;
 }
+
+h1 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h3 {
+  color: var(--Blue, #279ef8);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-weight: 400;
+}
