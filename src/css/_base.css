@@ -42,10 +42,10 @@ html[data-theme="dark"] {
   --color-bg: #515050;
   --color-bg-comp: #696a6c;
   --color-white: #fff;
-  --color-pastel-bleu: #a3d7ff;
-  --color-pastel-yellow: #f7f43e;
-  --color-pastel-green: #76e5b5;
-  --color-pastel-red: #f8a7a7;
+  --color-bleu: #a3d7ff;
+  --color-yellow: #f7f43e;
+  --color-green: #76e5b5;
+  --color-red: #f8a7a7;
   --color-text-main: #fff;
 }
 
@@ -58,7 +58,7 @@ html[data-theme="dark"] #dark-mode-btn {
 }
 
 h1 {
-  color: var(--Text-main, #515050);
+  color: var(--color-text-main);
   font-family: "Caesar Dressing";
   font-size: 40px;
   font-weight: 400;
@@ -66,7 +66,7 @@ h1 {
 }
 
 h2 {
-  color: var(--Text-main, #515050);
+  color: var(--color-text-main);
   font-family: "Caesar Dressing";
   font-size: 24px;
   font-weight: 400;
@@ -80,7 +80,7 @@ h3 {
 }
 
 p {
-  color: var(--Text-main, #515050);
+  color: var(--color-text-main);
   font-family: "Bubbler One";
   font-size: 20px;
   font-weight: 400;

@@ -1,3 +1,7 @@
+article {
+  margin-bottom: 20px;
+}
+
 .article-switch-mode-btn {
   color: var(--color-text-main);
   background: var(--color-bg);
@@ -8,14 +12,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-}
-
-.article-text-icon-all {
-  display: flex;
-  padding: 12px;
-  flex-direction: column;
-  gap: 10px;
-  align-self: stretch;
 }
 
 .article-block-icon {
