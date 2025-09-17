@@ -1,9 +1,9 @@
 <main class="l-main main-switch-mode-btn">
   <div class="row">
-    <div class="col-4 col-lg-9 offset-lg-3">
+    <div class="col-8 col-lg-9 offset-lg-3">
       <h1>Voir les dieux des panthéons</h1>
     </div>
-    <div class="col-6 col-lg-9 offset-lg-3">
+    <div class="col-12 col-lg-9 offset-lg-3">
       <section class="main-section-top">
         <div class="main-section-text-all">
           <p class="main-unter-text">Dieu du jour</p>
@@ -64,44 +64,71 @@
         </nav>
       </section>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="col-6 col-lg-3">
-          <extends src="filtre.html"></extends>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-3">
+      <extends src="filtre.html"></extends>
+    </div>
+    <div class="col-12 col-lg-9">
+      <section class="main-section-articles">
+        <div class="main-section-article-row">
+          <img src="img/Dieux et déesses/" alt="" />
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/athena", "title": "Athéna", "pantheon": "Panthéon grec", "untername": "Déesse de la guerre"}'
+          ></extends>
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/mars", "title": "Mars", "pantheon": "Panthéon romain", "untername": "Dieu de la guerre"}'
+          ></extends>
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/ra", "title": "RA", "pantheon": "Panthéon égyptien", "untername": "Dieu créateur"}'
+          ></extends>
         </div>
-        <div class="col-12 col-lg-9">
-          <section class="main-section-articles">
-            <div class="col-6 col-lg-12">
-              <div class="main-row">
-                <extends src="article.html"></extends
-                ><extends src="article.html"></extends
-                ><extends src="article.html"></extends>
-              </div>
-            </div>
-            <div class="col-6 col-lg-12">
-              <div class="main-row">
-                <extends src="article.html"></extends
-                ><extends src="article.html"></extends
-                ><extends src="article.html"></extends>
-              </div>
-            </div>
-            <div class="col-6 col-lg-12">
-              <div class="main-row">
-                <extends src="article.html"></extends
-                ><extends src="article.html"></extends
-                ><extends src="article.html"></extends>
-              </div>
-            </div>
-            <div class="col-6 col-lg-12">
-              <div class="main-row">
-                <extends src="article.html"></extends
-                ><extends src="article.html"></extends
-                ><extends src="article.html"></extends>
-              </div>
-            </div>
-          </section>
+        <div class="main-section-article-row">
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/freya", "title": "Freya", "pantheon": "Panthéon nordique", "untername": "Déesse de la fertilité"}'
+          ></extends>
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/loki", "title": "Loki", "pantheon": "Panthéon nordique", "untername": "Dieu du chaos"}'
+          ></extends>
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/fortuna", "title": "Fortuna", "pantheon": "Panthéon romain", "untername": "Déesse de la bonne fortune"}'
+          ></extends>
         </div>
-      </div>
+        <div class="main-section-article-row">
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/artemis", "title": "Artémis", "pantheon": "Panthéon grec", "untername": "Déesse de la chasse"}'
+          ></extends>
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/anubis", "title": "Anubis", "pantheon": "Panthéon égyptien", "untername": "Dieu funéraire"}'
+          ></extends>
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/zeus", "title": "Zeus", "pantheon": "Panthéon grec", "untername": "Dieu du ciel"}'
+          ></extends>
+        </div>
+        <div class="main-section-article-row">
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/lucifer", "title": "Lucifer", "pantheon": "Panthéon romain", "untername": "Dieu des étoiles"}'
+          ></extends>
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/hel", "title": "Hel", "pantheon": "Panthéon nordique", "untername": "Déesse des enfers"}'
+          ></extends>
+          <extends
+            src="article.html"
+            locals='{"img": "img/Dieux et déesses/isis", "title": "Isis", "pantheon": "Panthéon égyptien", "untername": "Déesse mère"}'
+          ></extends>
+        </div>
+      </section>
     </div>
   </div>
 </main>
