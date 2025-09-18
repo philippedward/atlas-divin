@@ -1,7 +1,7 @@
 <header class="l-header">
   <div class="header-top">
     <p class="header-logo header-switch-mode-btn">ATLAS DIVIN</p>
-    <button class="menu-button" onclick="toggleMenu()">
+    <!-- <button class="header-burger" onclick="toggleMenu()">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -12,21 +12,21 @@
         <g clip-path="url(#clip0_62_1890)">
           <path
             d="M4 6.5H20"
-            stroke="#515050"
+            stroke="var(--color-text-main)"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
           <path
             d="M4 12.5H20"
-            stroke="#515050"
+            stroke="var(--color-text-main)"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
           <path
             d="M4 18.5H16"
-            stroke="#515050"
+            stroke="var(--color-text-main)"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -37,33 +37,35 @@
             <rect
               width="24"
               height="24"
-              fill="white"
+              fill="var(--color-text-main)"
               transform="translate(0 0.5)"
             />
           </clipPath>
         </defs>
       </svg>
-    </button>
+    </button> -->
   </div>
-  <nav class="header-nav">
-    <ul id="hidden-links" class="header-list">
-      <li><a href="#">Mes favoris</a></li>
-      <li><a href="#">Dieu du jour</a></li>
-      <li><a href="#">Dieux populaires</a></li>
-    </ul>
-    <button
-      type="button"
-      id="dark-mode-btn"
-      class="header-switch-mode-btn header-moon"
-    >
-      <img src="./img/icon/moon.svg" alt="moon" />
-    </button>
-    <button
-      type="button"
-      id="light-mode-btn"
-      class="header-switch-mode-btn header-sun"
-    >
-      <img src="./img/icon/sun-high.svg" alt="sun" />
-    </button>
+  <nav id="header-hidden-links" class="header-nav header-switch-mode-btn">
+    <div class="header-links">
+      <ul class="header-list">
+        <li><a href="#">Mes favoris</a></li>
+        <li><a href="#">Dieu du jour</a></li>
+        <li><a href="#">Dieux populaires</a></li>
+      </ul>
+      <button
+        type="button"
+        id="dark-mode-btn"
+        class="header-switch-mode-btn header-moon"
+      >
+        <img src="./img/icon/moon.svg" alt="moon" />
+      </button>
+      <button
+        type="button"
+        id="light-mode-btn"
+        class="header-switch-mode-btn header-sun"
+      >
+        <img src="./img/icon/sun-high.svg" alt="sun" />
+      </button>
+    </div>
   </nav>
 </header>

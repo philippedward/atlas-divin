@@ -8,6 +8,10 @@ main {
   padding-bottom: 40px;
 }
 
+.main-padding {
+  padding-bottom: 40px;
+}
+
 .main-section-top {
   display: flex;
   padding: 12px 16px;

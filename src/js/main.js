@@ -12,7 +12,7 @@ toggleLightModeBtn.addEventListener("click", function () {
 });
 
 function toggleMenu() {
-  var menu = document.getElementById("hidden-links");
+  var menu = document.getElementById("header-hidden-links");
   menu.classList.toggle("active");
 }
 
