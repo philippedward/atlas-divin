@@ -10,3 +10,10 @@ toggleDarkModeBtn.addEventListener("click", function () {
 toggleLightModeBtn.addEventListener("click", function () {
   document.querySelector("html").setAttribute("data-theme", "light");
 });
+
+function toggleMenu() {
+  var menu = document.getElementById("hidden-links");
+  menu.classList.toggle("active");
+}
+
+window.toggleMenu = toggleMenu;

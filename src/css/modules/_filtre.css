@@ -55,4 +55,8 @@
 }
 
 @media (max-width: 393px) {
+  .filtre-section-colors {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
 }

@@ -9,3 +9,27 @@
 .l-footer {
   background: var(--color-bg-comp, #bcbfc3);
 }
+
+.l-header #hidden-links {
+  display: flex;
+  padding: 20px 80px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.l-header #hidden-links {
+  display: none;
+}
+
+.l-header #hidden-links.active {
+  display: flex;
+}
+
+.l-header #hidden-links ul {
+  display: inline-flex;
+  padding: 20px 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
