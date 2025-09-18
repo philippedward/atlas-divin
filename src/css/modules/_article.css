@@ -38,8 +38,8 @@ article {
   border-radius: 8px;
   border: 2px solid var(--color-blue);
   background: var(--color-bg);
+  overflow: hidden;
   img {
-    overflow: hidden;
     width: 100%;
   }
 }

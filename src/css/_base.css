@@ -13,7 +13,7 @@ video {
   display: block;
 }
 
-.row + .row {
+/* .row + .row {
   margin-top: 16px;
 }
 
@@ -23,7 +23,7 @@ video {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
-}
+} */
 
 html {
   --color-bg-comp: #bcbfc3;

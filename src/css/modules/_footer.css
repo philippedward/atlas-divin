@@ -61,3 +61,37 @@ footer {
   align-items: center;
   align-self: stretch;
 }
+
+@media (max-width: 393px) {
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .footer-list-website {
+    display: flex;
+    align-items: end;
+    gap: 12px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    align-self: stretch;
+  }
+
+  .footer-nav {
+    align-items: flex-end;
+  }
+
+  footer {
+    display: flex;
+    padding: 20px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
