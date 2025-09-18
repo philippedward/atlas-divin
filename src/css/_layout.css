@@ -10,10 +10,10 @@
   background: var(--color-bg-comp, #bcbfc3);
 }
 
-/* .l-header #header-hidden-links {
+.l-header #header-hidden-links {
   display: none;
 }
 
 .l-header #header-hidden-links.active {
   display: flex;
-} */
+}
