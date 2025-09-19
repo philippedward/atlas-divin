@@ -11,9 +11,9 @@
 }
 
 .l-header #header-hidden-links {
-  display: none;
+  display: flex;
 }
 
 .l-header #header-hidden-links.active {
-  display: flex;
+  display: none;
 }
