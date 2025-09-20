@@ -62,7 +62,7 @@ footer {
   align-self: stretch;
 }
 
-@media (max-width: 393px) {
+@media (max-width: 780px) {
   .footer-list {
     display: flex;
     flex-direction: column;

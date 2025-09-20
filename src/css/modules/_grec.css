@@ -1,0 +1,157 @@
+article {
+  margin-bottom: 20px;
+}
+
+.grec-switch-mode-btn {
+  color: var(--color-text-main);
+  background: var(---color-bg);
+}
+
+.grec-text-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.grec-block-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.grec-block-inside {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.grec-block-all {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--color-blue);
+  background: var(--color-bg);
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.grec-svg {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  color: var(---blue);
+}
+
+.grec-block-text {
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+  position: absolute;
+  background: var(--color-bg);
+  position: absolute;
+  bottom: 70;
+}
+
+h3.grec-block-text {
+  color: var(--color-blue);
+}
+
+.grec-subtitle {
+  font-size: 16px;
+}
+
+.grec-block-icon svg {
+  width: 24px;
+  height: 21.034px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 780px) {
+  .grec-block-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .grec-block-all img {
+    object-fit: fill;
+  }
+}
+
+.card {
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #279ef8);
+  background: var(--Background, #fff);
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.card-infos {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.card-origine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-type {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+
+.card-title {
+}
+
+.card-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-image-location {
+  position: relative;
+}
+
+.card .img {
+  height: 216px;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .card .img {
+    height: auto;
+  }
+  .card {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,84 @@
+article {
+  margin-bottom: 20px;
+}
+
+.roman-switch-mode-btn {
+  color: var(--color-text-main);
+  background: var(---color-bg);
+}
+
+.roman-text-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.roman-block-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.roman-block-inside {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.roman-block-all {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--color-red);
+  background: var(--color-bg);
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.roman-svg {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.roman-block-text {
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+  position: absolute;
+  background: var(--color-bg);
+  bottom: 70;
+}
+
+h3.roman-block-text {
+  color: var(--color-red);
+}
+
+.roman-subtitle {
+  font-size: 16px;
+}
+
+.roman-block-icon svg {
+  width: 24px;
+  height: 21.034px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 780px) {
+  .roman-block-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .roman-block-all img {
+    object-fit: fill;
+  }
+}

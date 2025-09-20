@@ -2,26 +2,26 @@ article {
   margin-bottom: 20px;
 }
 
-.article-switch-mode-btn {
+.nordic-switch-mode-btn {
   color: var(--color-text-main);
   background: var(---color-bg);
 }
 
-.article-text-icon {
+.nordic-text-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
 }
 
-.article-block-icon {
+.nordic-block-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
 }
 
-.article-block-inside {
+.nordic-block-inside {
   display: flex;
   padding: 12px;
   flex-direction: column;
@@ -29,14 +29,13 @@ article {
   align-self: stretch;
 }
 
-.article-block-all {
-  display: flex;
+.nordic-block-all {
+  display: inline-flex;
   position: relative;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border-radius: 8px;
-  border: 2px solid var(--color-blue);
+  border: 2px solid var(--color-green);
   background: var(--color-bg);
   overflow: hidden;
   img {
@@ -44,44 +43,42 @@ article {
   }
 }
 
-.article-svg {
+.nordic-svg {
   position: absolute;
   right: 12px;
   top: 12px;
 }
 
-.article-block-text {
+.nordic-block-text {
   display: flex;
   padding: 8px 12px;
   align-items: flex-start;
   position: absolute;
   background: var(--color-bg);
+  bottom: 70;
 }
 
-.article-subtitle {
+h3.nordic-block-text {
+  color: var(--color-green);
+}
+
+.nordic-subtitle {
   font-size: 16px;
 }
 
-@media (max-width: 393px) {
-  .article-block-all {
-    height: 292px;
+.nordic-block-icon svg {
+  width: 24px;
+  height: 21.034px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 780px) {
+  .nordic-block-icon svg {
+    width: 18px;
+    height: 18px;
   }
 
-  .article-block-inside {
-    display: flex;
-    padding: 12px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    align-self: stretch;
-  }
-
-  .article-block-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    align-self: stretch;
+  .nordic-block-all img {
+    object-fit: fill;
   }
 }

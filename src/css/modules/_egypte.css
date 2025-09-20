@@ -1,0 +1,84 @@
+article {
+  margin-bottom: 20px;
+}
+
+.egypte-switch-mode-btn {
+  color: var(--color-text-main);
+  background: var(---color-bg);
+}
+
+.egypte-text-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.egypte-block-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.egypte-block-inside {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.egypte-block-all {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--color-yellow);
+  background: var(--color-bg);
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.egypte-svg {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.egypte-block-text {
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+  position: absolute;
+  background: var(--color-bg);
+  bottom: 70;
+}
+
+h3.egypte-block-text {
+  color: var(--color-yellow);
+}
+
+.egypte-subtitle {
+  font-size: 16px;
+}
+
+.egypte-block-icon svg {
+  width: 24px;
+  height: 21.034px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 780px) {
+  .egypte-block-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .egypte-block-all img {
+    object-fit: fill;
+  }
+}

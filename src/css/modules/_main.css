@@ -50,12 +50,6 @@ main {
     font-family: "Bubbler One";
     font-size: 20px;
     font-weight: 400;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-skip-ink: auto;
-    text-decoration-thickness: auto;
-    text-underline-offset: 17.5%; /* 3.5px */
-    text-underline-position: from-font;
   }
 }
 
@@ -65,22 +59,7 @@ main {
   font-size: 16px;
 }
 
-.card.main-greek {
-  color: var(--blue);
-}
-
-.card.main-roman {
-  color: var(--red);
-}
-
-.card.main-nordic {
-  color: var(--green);
-}
-.card.main-egypte {
-  color: var(--yellow);
-}
-
-@media (max-width: 393px) {
+@media (max-width: 780px) {
   main {
     padding-bottom: 20px;
   }

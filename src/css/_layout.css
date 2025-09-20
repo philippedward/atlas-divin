@@ -15,5 +15,25 @@
 }
 
 .l-header #header-hidden-links.active {
-  display: none;
+  display: flex;
+}
+
+@media (max-width: 780px) {
+  .l-header #header-hidden-links {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 88;
+  }
+
+  .l-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .l-header #header-hidden-links.active {
+    display: flex;
+  }
 }
