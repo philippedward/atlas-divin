@@ -2,26 +2,26 @@ article {
   margin-bottom: 20px;
 }
 
-.egypte-switch-mode-btn {
+.egyptian-switch-mode-btn {
   color: var(--color-text-main);
   background: var(---color-bg);
 }
 
-.egypte-text-icon {
+.egyptian-text-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
 }
 
-.egypte-block-icon {
+.egyptian-block-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
 }
 
-.egypte-block-inside {
+.egyptian-block-inside {
   display: flex;
   padding: 12px;
   flex-direction: column;
@@ -29,7 +29,7 @@ article {
   align-self: stretch;
 }
 
-.egypte-block-all {
+.egyptian-block-all {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -45,14 +45,14 @@ article {
   }
 }
 
-.egypte-svg {
+.egyptian-svg {
   position: absolute;
   right: 12px;
   top: 12px;
   cursor: pointer;
 }
 
-.egypte-block-text {
+.egyptian-block-text {
   display: flex;
   padding: 8px 12px;
   align-items: flex-start;
@@ -61,27 +61,27 @@ article {
   bottom: 70;
 }
 
-h3.egypte-block-text {
+h3.egyptian-block-text {
   color: var(--color-yellow);
 }
 
-.egypte-subtitle {
+.egyptian-subtitle {
   font-size: 16px;
 }
 
-.egypte-block-icon svg {
+.egyptian-block-icon svg {
   width: 24px;
   height: 21.034px;
   flex-shrink: 0;
 }
 
 @media (max-width: 780px) {
-  .egypte-block-icon svg {
+  .egyptian-block-icon svg {
     width: 18px;
     height: 18px;
   }
 
-  img.egypte-block-all {
+  img.egyptian-block-all {
     height: auto;
   }
 

@@ -3,9 +3,9 @@
 @import "./modules/_header.css";
 @import "./modules/_main.css";
 @import "./modules/_footer.css";
-@import "./modules/_grec.css";
+@import "./modules/_greek.css";
 @import "./modules/_nordic.css";
-@import "./modules/_egypte.css";
+@import "./modules/_egyptian.css";
 @import "./modules/_roman.css";
 @import "./modules/_filtre.css";
 @import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";

@@ -62,6 +62,62 @@
   align-self: stretch;
 }
 
+.filtre-button-blue.active {
+  background: var(--color-bg);
+  border: 1px solid var(--color-blue);
+}
+
+.filtre-button-blue.active h3 {
+  color: var(--color-blue);
+}
+
+.filtre-button-blue.active svg {
+  color: var(--color-blue);
+}
+
+.filtre-button-yellow.active {
+  background: var(--color-bg);
+  border: 1px solid var(--color-yellow);
+}
+
+.filtre-button-yellow.active h3 {
+  color: var(--color-yellow);
+}
+
+.filtre-button-yellow.active svg {
+  color: var(--color-yellow);
+}
+
+.filtre-button-red.active {
+  background: var(--color-bg);
+  border: 1px solid var(--color-red);
+}
+
+.filtre-button-red.active h3 {
+  color: var(--color-red);
+}
+
+.filtre-button-red.active svg {
+  color: var(--color-red);
+}
+
+.filtre-button-green.active {
+  background: var(--color-bg);
+  border: 1px solid var(--color-green);
+}
+
+.filtre-button-green.active h3 {
+  color: var(--color-green);
+}
+
+.filtre-button-green.active svg {
+  color: var(--color-green);
+}
+
+.god-card.hidden {
+  display: none;
+}
+
 @media (max-width: 780px) {
   .filtre-section-colors {
     padding-bottom: 40px;

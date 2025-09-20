@@ -2,26 +2,26 @@ article {
   margin-bottom: 20px;
 }
 
-.grec-switch-mode-btn {
+.greek-switch-mode-btn {
   color: var(--color-text-main);
   background: var(---color-bg);
 }
 
-.grec-text-icon {
+.greek-text-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
 }
 
-.grec-block-icon {
+.greek-block-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
 }
 
-.grec-block-inside {
+.greek-block-inside {
   display: flex;
   padding: 12px;
   flex-direction: column;
@@ -29,7 +29,7 @@ article {
   align-self: stretch;
 }
 
-.grec-block-all {
+.greek-block-all {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -45,7 +45,7 @@ article {
   }
 }
 
-.grec-svg {
+.greek-svg {
   position: absolute;
   right: 12px;
   top: 12px;
@@ -53,7 +53,7 @@ article {
   cursor: pointer;
 }
 
-.grec-block-text {
+.greek-block-text {
   display: flex;
   padding: 8px 12px;
   align-items: flex-start;
@@ -63,27 +63,27 @@ article {
   bottom: 70;
 }
 
-h3.grec-block-text {
+h3.greek-block-text {
   color: var(--color-blue);
 }
 
-.grec-subtitle {
+.greek-subtitle {
   font-size: 16px;
 }
 
-.grec-block-icon svg {
+.greek-block-icon svg {
   width: 24px;
   height: 21.034px;
   flex-shrink: 0;
 }
 
 @media (max-width: 780px) {
-  .grec-block-icon svg {
+  .greek-block-icon svg {
     width: 18px;
     height: 18px;
   }
 
-  img.grec-block-all {
+  img.greek-block-all {
     height: auto;
   }
 
