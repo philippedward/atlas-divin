@@ -40,6 +40,8 @@ article {
   overflow: hidden;
   img {
     width: 100%;
+    height: 216px;
+    object-fit: cover;
   }
 }
 
@@ -47,6 +49,7 @@ article {
   position: absolute;
   right: 12px;
   top: 12px;
+  cursor: pointer;
 }
 
 .egypte-block-text {
@@ -78,7 +81,11 @@ h3.egypte-block-text {
     height: 18px;
   }
 
-  .egypte-block-all img {
-    object-fit: fill;
+  img.egypte-block-all {
+    height: auto;
+  }
+
+  article {
+    margin-bottom: 12px;
   }
 }

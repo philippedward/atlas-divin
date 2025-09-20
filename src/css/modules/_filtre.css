@@ -2,6 +2,7 @@
   background: none;
   display: flex;
   border-radius: 8px;
+  justify-content: space-between;
 }
 
 .filtre-section-colors {
@@ -26,9 +27,15 @@
     align-items: center;
     gap: 8px;
     align-self: stretch;
+    cursor: pointer;
   }
   h3 {
     color: var(--color-text-main-filtre);
+    cursor: pointer;
+  }
+
+  svg {
+    cursor: pointer;
   }
 }
 
