@@ -58,7 +58,7 @@ article {
   align-items: flex-start;
   position: absolute;
   background: var(--color-bg);
-  bottom: 70;
+  bottom: 75;
 }
 
 h3.egyptian-block-text {
@@ -91,5 +91,9 @@ h3.egyptian-block-text {
 
   article {
     margin-bottom: 12px;
+  }
+
+  .egyptian-block-text {
+    bottom: 99;
   }
 }

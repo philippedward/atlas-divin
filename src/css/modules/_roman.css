@@ -40,7 +40,6 @@ article {
   overflow: hidden;
   img {
     width: 100%;
-    height: 216px;
     object-fit: cover;
   }
 }
@@ -58,7 +57,7 @@ article {
   align-items: flex-start;
   position: absolute;
   background: var(--color-bg);
-  bottom: 70;
+  bottom: 75;
 }
 
 h3.roman-block-text {
@@ -85,8 +84,8 @@ h3.roman-block-text {
     width: 179px;
   }
 
-  img.roman-block-all {
-    height: auto;
+  .roman-block-all img {
+    height: 216px;
   }
 
   article {

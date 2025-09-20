@@ -60,7 +60,7 @@ article {
   position: absolute;
   background: var(--color-bg);
   position: absolute;
-  bottom: 70;
+  bottom: 75;
 }
 
 h3.greek-block-text {
@@ -89,9 +89,15 @@ h3.greek-block-text {
 
   img.greek-block-all {
     height: auto;
+    object-fit: cover;
   }
 
   article {
     margin-bottom: 12px;
+  }
+
+  .no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
