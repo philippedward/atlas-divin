@@ -83,6 +83,10 @@ h3.greek-block-text {
     height: 18px;
   }
 
+  .greek-block-all {
+    width: 179px;
+  }
+
   img.greek-block-all {
     height: auto;
   }

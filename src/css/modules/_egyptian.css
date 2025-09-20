@@ -81,6 +81,10 @@ h3.egyptian-block-text {
     height: 18px;
   }
 
+  .egyptian-block-all {
+    width: 179px;
+  }
+
   img.egyptian-block-all {
     height: auto;
   }

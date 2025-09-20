@@ -29,6 +29,7 @@
     align-self: stretch;
     cursor: pointer;
   }
+
   h3 {
     color: var(--color-text-main-filtre);
     cursor: pointer;
@@ -43,16 +44,32 @@
   background: var(--color-yellow);
 }
 
+button.filtre-button-yellow {
+  border: 1px solid var(--color-yellow);
+}
+
 .filtre-button-blue {
   background: var(--color-blue);
+}
+
+button.filtre-button-blue {
+  border: 1px solid var(--color-blue);
 }
 
 .filtre-button-red {
   background: var(--color-red);
 }
 
+button.filtre-button-red {
+  border: 1px solid var(--color-red);
+}
+
 .filtre-button-green {
   background: var(--color-green);
+}
+
+button.filtre-button-green {
+  border: 1px solid var(--color-green);
 }
 
 .filtre-all {
@@ -64,7 +81,6 @@
 
 .filtre-button-blue.active {
   background: var(--color-bg);
-  border: 1px solid var(--color-blue);
 }
 
 .filtre-button-blue.active h3 {
@@ -77,7 +93,6 @@
 
 .filtre-button-yellow.active {
   background: var(--color-bg);
-  border: 1px solid var(--color-yellow);
 }
 
 .filtre-button-yellow.active h3 {
@@ -90,7 +105,6 @@
 
 .filtre-button-red.active {
   background: var(--color-bg);
-  border: 1px solid var(--color-red);
 }
 
 .filtre-button-red.active h3 {
@@ -103,7 +117,6 @@
 
 .filtre-button-green.active {
   background: var(--color-bg);
-  border: 1px solid var(--color-green);
 }
 
 .filtre-button-green.active h3 {
