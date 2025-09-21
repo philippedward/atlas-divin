@@ -70,23 +70,14 @@ h3.egyptian-block-text {
 }
 
 .egyptian-block-icon svg {
-  width: 24px;
-  height: 21.034px;
+  width: 40px;
+  height: 15.19px;
   flex-shrink: 0;
 }
 
 @media (max-width: 780px) {
-  .egyptian-block-icon svg {
-    width: 18px;
-    height: 18px;
-  }
-
-  .egyptian-block-all {
-    width: 179px;
-  }
-
   img.egyptian-block-all {
-    height: auto;
+    height: 216px;
   }
 
   article {

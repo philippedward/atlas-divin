@@ -70,23 +70,14 @@ h3.nordic-block-text {
 }
 
 .nordic-block-icon svg {
-  width: 24px;
-  height: 21.034px;
+  width: 14px;
+  height: 24px;
   flex-shrink: 0;
 }
 
 @media (max-width: 780px) {
-  .nordic-block-icon svg {
-    width: 18px;
-    height: 18px;
-  }
-
-  .nordic-block-all {
-    width: 179px;
-  }
-
   img.nordic-block-all {
-    height: auto;
+    height: 216px;
   }
 
   article {

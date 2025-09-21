@@ -69,23 +69,18 @@ h3.roman-block-text {
 }
 
 .roman-block-icon svg {
-  width: 24px;
-  height: 21.034px;
+  width: 13.672px;
+  height: 21px;
   flex-shrink: 0;
 }
 
 @media (max-width: 780px) {
-  .roman-block-icon svg {
-    width: 18px;
-    height: 18px;
-  }
-
-  .roman-block-all {
-    width: 179px;
-  }
-
   .roman-block-all img {
     height: 216px;
+  }
+
+  .roman-block-icon {
+    gap: 0px;
   }
 
   article {
