@@ -82,4 +82,9 @@ main {
   .gods-grid {
     gap: 12px;
   }
+
+  .gods-grid.hidden {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
